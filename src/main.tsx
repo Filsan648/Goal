@@ -3,10 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Hero from './Compement/Hero.tsx'
 import Navbar   from './Compement/navbar.tsx'
+import About from './Compement/about.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <div className="min-h-screen w-full bg-white relative text-black/70">
-  {/* Purple Gradient Grid Left Background */}
+
   <div
     className="absolute inset-0 -z-1"
     style={{
@@ -21,6 +22,15 @@ createRoot(document.getElementById('root')!).render(
   <div className='relative z-30'>
     <Navbar />
   <Hero />
+
+ <div className=" rounded-xl "> 
+   <About />
+  
+  
+   </div> 
+
+
+
      </div> 
 </div>
    
