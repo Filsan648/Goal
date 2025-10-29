@@ -6,7 +6,7 @@ import Navbar   from './Compement/navbar.tsx'
 import About from './Compement/about.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <div className="min-h-screen w-full bg-white relative text-black/70">
+    <div className="min-h-screen w-full bg-white relative ">
 
   <div
     className="absolute inset-0 -z-1"

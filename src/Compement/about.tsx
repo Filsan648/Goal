@@ -2,7 +2,7 @@ function About (){
 
     return(
            <div className=" h-screen flex justify-center items-center relative text-3xl p-5 ">   
-            <p> Put your lessons online and expand your class beyond the four walls to transfrom more lives including yours. Put your lessons online and expand your class beyond the four walls to transfrom more lives including yours.   </p>
+            <p>GOAL est une IA qui se connecte directement à votre plateforme de données pour vous offrir, en temps réel, des analyses approfondies, des suggestions intelligentes et des prévisions précises. Transformez vos données en décisions rapides et éclairées. </p>
            </div>
     )
 
